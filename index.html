@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTN</title>
+    <!--SRYLESHEET-->
+    <link rel="stylesheet" href="./style.css">
+    <!---MATERIAL ICONS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="/src/images/mtn-logo.svg" alt="MTN">
+                    <h3>Merchant cabinet</h3>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                    <a href="#" class="active">
+                        <span class="material-icons-sharp">dashboard</span>
+                        <h3>Dashboard</h3>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">store</span>                            
+                        <h3>Acquiring</h3>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">change_circle</span>                            
+                        <h3>Emission</h3>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">tune</span>
+                        <h3>Settings</h3>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">manage_accounts</span>
+                        <h3>Administration</h3>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">logout</span>
+                        <h3>Log out</h3>
+                    </a>
+            </div>
+        </aside>
+        <!--------------------------------END OF ASIDE--------------------------------->
+        <main>
+            <h1>Dashboard</h1>
+            <div class="insights">
+                <div class="transition">
+                    <span class="material-icons-sharp">shopping_cart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>All transition per day</h3>
+                            <h1>$57,820<span class="material-icons-sharp arrow">arrow_downward</span></h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>90%</p>
+                            </div>
+                        </div>
+                    </div>                        
+                    <small class="text-muted">After day<h4>$59,347</h4>
+                        </small>
+                </div>
+                <!----------------------END OF SALES---------------------->
+                <div class="turnover">
+                    <span class="material-icons-sharp">account_balance_wallet</span> 
+                    <div class="middle">
+                        <div class="left">
+                            <h3>All turnover per day</h3>
+                            <h1>$108,050<span class="material-icons-sharp arrow">arrow_downward</span></h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>98%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">After day<h4 class="numb">$120,537</h4></small>
+                </div>
+                <!----------------------END OF TURNOVER---------------------->
+                <div class="merchants">
+                    <span class="material-icons-sharp">people_alt</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Merchants connected per day</h3>
+                            <h1>4,305<span class="material-icons-sharp arrow">arrow_upward</span></h1>
+                        </div>
+                    </div>
+                    <small class="text-muted">All Merchants<h4>18,356</h4></small>
+                </div>
+                <!----------------------END OF MERCHANTS---------------------->
+                <div class="wallets">
+                    <span class="material-icons-sharp">payments</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Wallets connected per day</h3>
+                            <h1>1,502<span class="material-icons-sharp arrow">arrow_upward</span></h1>
+                        </div>
+                    </div>
+                    <small class="text-muted">All Wallets <h4>108,365</h4></small>
+                </div>
+                <!----------------------END OF WALLETS---------------------->
+            </div>
+            <!----------------------END OF INSIGHTS---------------------->
+            <div class="list-of-users">
+                <h2>List of users</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Login</th>
+                            <th>Name</th>
+                            <th>Status</th>
+                            <th>Role</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>AnnaMerchant</td>
+                            <td>Anna</td>
+                            <td class="active">Active</td>
+                            <td><div class="role merch-color">
+                                    <div class="role-icon">
+                                        <span class="material-icons-sharp merch">shopping_basket</span>
+                                    </div>
+                                    <div class="role-name">
+                                        Merchant
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="material-icons-sharp info">info</span></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>AndrewManager</td>
+                            <td>Andrew</td>
+                            <td class="active">Active</td>
+                            <td><div class="role manager-color">
+                                <div class="role-icon">
+                                    <span class="material-icons-sharp merch">account_circle</span>
+                                </div>
+                                <div class="role-name">
+                                    Manager
+                                </div>
+                            </div>
+                            </td>
+                            <td><span class="material-icons-sharp info">info</span></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>WikiAdmin</td>
+                            <td>Wiki</td>
+                            <td class="active">Active</td>
+                            <td><div class="role admin-color">
+                                <div class="role-icon">
+                                    <span class="material-icons-sharp merch">settings</span>
+                                </div>
+                                <div class="role-name admin-color admin">
+                                    Admin
+                                </div>
+                            </div>
+                            <td><span class="material-icons-sharp info">info</span></td>
+                        <tr>
+                            <td>4</td>
+                            <td>LeoBoss</td>
+                            <td>Leo</td>
+                            <td class="active">Active</td>
+                            <td><div class="role boss-color">
+                                <div class="role-icon">
+                                    <span class="material-icons-sharp merch">paid</span>
+                                </div>
+                                <div class="role-name boss">
+                                    Boss
+                                </div>
+                            </div>
+                            <td><span class="material-icons-sharp info">info</span></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>MickManager</td>
+                            <td>Mick</td>
+                            <td class="deleted">Deleted</td>
+                            <td><div class="role manager-color">
+                                <div class="role-icon">
+                                    <span class="material-icons-sharp merch">account_circle</span>
+                                </div>
+                                <div class="role-name">
+                                    Manager
+                                </div>
+                            </div></td>
+                            <td><span class="material-icons-sharp info">info</span></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>EvaMerchant</td>
+                            <td>Eva</td>
+                            <td class="active">Active</td>
+                            <td><div class="role merch-color">
+                                <div class="role-icon">
+                                    <span class="material-icons-sharp merch">shopping_basket</span>
+                                </div>
+                                <div class="role-name">
+                                    Merchant
+                                </div>
+                            </div>
+                            </td>
+                            <td><span class="material-icons-sharp info">info</span></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>MariaMerchant</td>
+                            <td>Maria</td>
+                            <td class="active">Active</td>
+                            <td><div class="role merch-color">
+                                <div class="role-icon">
+                                    <span class="material-icons-sharp merch">shopping_basket</span>
+                                </div>
+                                <div class="role-name">
+                                    Merchant
+                                </div>
+                            </div>
+                            </td>
+                            <td><span class="material-icons-sharp info">info</span></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>AlexanderManager</td>
+                            <td>Alexander</td>
+                            <td class="deleted">Deleted</td>
+                            <td><div class="role manager-color">
+                                <div class="role-icon">
+                                    <span class="material-icons-sharp merch">account_circle</span>
+                                </div>
+                                <div class="role-name">
+                                    Manager
+                                </div>
+                            </div>
+                            </td>
+                            <td><span class="material-icons-sharp info">info</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+        </main>
+        <!----------------------END OF MAIN---------------------->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn" class="burger">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="search-box">
+                    <span class="material-icons-sharp search-icon">search</span>
+                    <input type="text" class="search-field" placeholder="Search...">
+                        </a>
+                </div>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">wb_sunny</span>
+                    <span class="material-icons-sharp">mode_night</span>
+                </div>
+                <div class="profile">
+                    <div class="profile">
+                        <div class="name-role">
+                            <p><b>Daniel</b></p>
+                        <small class="text-muted">Admin</small>
+                        </div>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="/src/images/krugloe-foto-10.png" alt="Avatar">
+                    </div>
+                </div>
+            </div>
+            <!----------------------END OF TOP---------------------->
+            <div class="widgeth-massages">
+                <h2>Massages</h2>
+                <div class="massages">
+                    <div class="updates">
+                        <div class="update">
+                            <div class="update-photo">
+                                <img src="/src/images/krugloe-foto-10.png" alt="Manager" >
+                            </div>
+                            <div class="massage">
+                                <p><b>Andrew</b> <p>Neque mollitia eaque accusantium similique reiciendis eius fugiat dolore maxime rem est.</p>
+                                <small class="text-muted">2 minutes ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="update">
+                            <div class="update-photo">
+                                <img src="/src/images/Delaem-krugloe-foto-v-Fotoshope-7.png" alt="Merchant">
+                            </div>
+                            <div class="massage">
+                                <p><b>Mick</b> <p>Totam odio asperiores odit quis eveniet porro voluptas minus itaque. Neque mollitia eaque accusantium similique reiciendis eius fugiat dolore maxime rem est.</p> 
+                                </p>
+                                <small class="text-muted">5 minutes ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="update">
+                            <div class="update-photo">
+                                <img src="/src/images/Александр Литвин_круглая аватарка.jpeg" alt="Merchant">
+                            </div>
+                            <div class="massage">
+                                <p><b>Alexander</b> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam odio asperiores odit quis eveniet porro voluptas minus itaque.</p>
+                                <small class="text-muted">10 minutes ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------------------END OF WIDGETH MASSAGES---------------------->
+            <div class="sales-analytics">
+                <h2>Analytics</h2>
+                <div class="analytics">
+                    <div class="analytics-acquiring">
+                        <div class="item-online">
+                            <span class="material-icons-sharp">store</span>
+                        </div>
+                        <div class="analytics-right">
+                            <div class="acquiring-info">
+                                <h3>Acquiring</h3>
+                                <small class="text-muted">Last 24 Hours</small>
+                            </div>
+                            <h5>48%</h5>
+                            <h4>3852</h4>
+                        </div>
+                    </div> 
+                    <div class="analytics-emission">
+                        <div class="item-online">
+                            <span class="material-icons-sharp">account_balance</span>
+                        </div>
+                        <div class="analytics-right">
+                            <div class="acquiring-info">
+                                <h3>Emission</h3>
+                                <small class="text-muted">Last 24 Hours</small>
+                            </div>
+                            <h5>52%</h5>
+                            <h4>4352</h4>
+                        </div>
+                    </div> 
+                    <div class="item-add-widgeth">
+                        <div>
+                            <span class="material-icons-sharp">add</span>
+                            <h3>Add Widgeth</h3>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
