@@ -157,6 +157,10 @@ aside .logo {
     color: var(--color-primary);
 }
 
+aside .logo h2 {
+    font-weight: 500;
+}
+
 aside .logo img {
     width: 6rem;
     height: 3rem;
@@ -178,7 +182,7 @@ aside .sidebar {
 }
 
 aside h3 {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 aside .sidebar a {
@@ -318,6 +322,10 @@ main .insights .transition svg circle {
     stroke-dasharray: 200;
 }
 
+main .insights h3 {
+    font-weight: 600;
+}
+
 main .insights .turnover svg circle {
     stroke-dashoffset: 0;
     stroke-dasharray: 205;
@@ -450,11 +458,11 @@ main .list-of-users .role-name {
 }
 
 main .list-of-users .admin {
-    margin-right: 1rem;
+    margin-right: 1.1rem;
 }
 
 main .list-of-users .boss {
-    margin-right: 1.9rem;
+    margin-right: 1.95rem;
 }
 
 
@@ -604,6 +612,11 @@ main .list-of-users .boss {
     color: var(--color-info-dark);
 }
 
+.right .sales-analytics .analytics h3 {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
 .right .sales-analytics .analytics .analytics-emission {
     background: var(--color-white);
     display: flex;
@@ -698,7 +711,7 @@ main .list-of-users .boss {
         grid-template-columns: 8rem auto 23rem;
     }
 
-    aside .logo h3 {
+    aside .logo h2 {
         display: none;
     }
 
@@ -736,7 +749,7 @@ main .list-of-users .boss {
 
 @media screen and (max-width: 768px) {
     .container {
-        width: %;
+        width: 100%;
         grid-template-columns: 1fr;
     }
 
