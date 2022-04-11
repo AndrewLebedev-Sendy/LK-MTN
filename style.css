@@ -765,8 +765,10 @@ main .list-of-users .boss {
         display: none;
         animation: showMenu 1000ms ease forwards;
     }
-
-    /* @keyframes showMenu {
+        
+    /*
+        ПОТОМ ПОЧИНЮ
+    @keyframes showMenu {
         to {
             left: 0;
         }
